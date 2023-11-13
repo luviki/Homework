@@ -1,0 +1,5 @@
+def find_smallest_int(arr):
+    if not arr:
+        return "Input array is empty"
+    smallest_int = min(arr)
+    return smallest_int
